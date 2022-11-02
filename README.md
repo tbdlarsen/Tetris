@@ -1,5 +1,3 @@
-# Novelle
-Dette er en novelle.
-Hej tb jeg ved du kan se det her og hvad vil du gøre ved det?
-Din Mor ?
-
+# Tetris
+Dette er et program i Js som laver spillet tetris
+Gruppemedlemmer: Ruben og Thorbjørn
