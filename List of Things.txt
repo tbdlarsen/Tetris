@@ -1,0 +1,13 @@
+Todo:
+    grid
+    basis brik
+    de 7 tetromino
+    Hold
+    line clear
+    Death mekanik
+    score
+    mængde af cleared lines
+    Start  menu
+    Level
+
+
