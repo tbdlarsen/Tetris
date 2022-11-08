@@ -9,7 +9,7 @@ function draw() {
 
 function grid(){
 
-  for (var x =width * (1/5); x <= width * (4/5); x += width/15) {
+  for (var x = 0; x <= width; x += width/10) {
     stroke(0);
 		strokeWeight(1);
 		line(x, 0, x, height);
