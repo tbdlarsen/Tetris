@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(600, 800);
+  createCanvas(400, 800);
 }
 
 function draw() {
@@ -20,9 +20,4 @@ function grid(){
     }
 
   }
-
-
-
-
-
 }
