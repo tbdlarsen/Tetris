@@ -5,3 +5,11 @@ function setup() {
 function draw() {
   background(120);
 }
+
+function grid(){
+  
+
+
+
+
+}
