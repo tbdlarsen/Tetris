@@ -6,8 +6,9 @@ function draw() {
   background(220);
   grid();
 
+  fill(10);
   rect(50,50,50);
-  
+
 }
 
 function grid(){
