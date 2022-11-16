@@ -5,6 +5,8 @@ function setup() {
 function draw() {
   background(220);
   grid();
+
+  rect(20,20,20);
 }
 
 function grid(){
