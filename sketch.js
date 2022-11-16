@@ -6,7 +6,7 @@ function draw() {
   background(220);
   grid();
 
-  rect(20,20,20);
+  rect(20,20,20,20);
 }
 
 function grid(){
