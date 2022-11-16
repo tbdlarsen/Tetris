@@ -11,8 +11,8 @@ function draw() {
 }
 
 function grid(){
-  var gridRow = 16;
-  var gridCol = 9;
+  var gridRow = 80;
+  var gridCol = 45;
 
   var xPlus = width/gridRow;
   var yPlus = height/gridCol;
@@ -20,8 +20,6 @@ function grid(){
   for (var x = 0; x < width; x += xPlus) {
     for(var y = 0; y < height; y += yPlus){
       
-      stroke(0);
-		  strokeWeight(1);
 		  line(x, 0, x, height);
       line(0, y, width, y);
       
