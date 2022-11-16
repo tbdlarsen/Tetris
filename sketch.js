@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(400, 600);
+  createCanvas(1536, 720);
 }
 
 function draw() {
@@ -11,15 +11,20 @@ function draw() {
 }
 
 function grid(){
+  var gridRow = 16;
+  var gridCol = 9;
 
-  for (var x = 0; x < width; x += width/10) {
-    for(var y = 0; y < height; y += height/20){
+  var xPlus = width/gridRow;
+  var yPlus = height/gridCol;
+
+  for (var x = 0; x < width; x += xPlus) {
+    for(var y = 0; y < height; y += yPlus){
       
       stroke(0);
 		  strokeWeight(1);
 		  line(x, 0, x, height);
       line(0, y, width, y);
-
+      
     }
 
   }
